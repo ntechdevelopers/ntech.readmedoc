@@ -4,4 +4,4 @@ API
 .. autosummary::
    :toctree: generated
 
-   api.ntechdevelops.com
+   api
