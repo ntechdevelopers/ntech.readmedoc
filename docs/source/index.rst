@@ -2,7 +2,7 @@ Welcome to NtechDevelopers's documentation!
 ===================================
 
 **NtechDevelopers**
-Blog: `www.blog.ntechdevelopers.com<https://blog.ntechdevelopers.com/>`
+Blog: `www.blog.ntechdevelopers.com`
 
 .. note::
 
@@ -13,5 +13,5 @@ Contents
 
 .. toctree::
 
-   resources
-   api
+   dotnet/roadmap_dotnet
+   aboutme

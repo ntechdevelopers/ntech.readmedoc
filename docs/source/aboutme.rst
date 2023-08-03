@@ -1,4 +1,4 @@
-Resources
+About me
 =====
 
 .. _github:
