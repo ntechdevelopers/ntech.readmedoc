@@ -12,6 +12,7 @@ Contents
 --------
 
 .. toctree::
-   
+   :glob:
+
    dotnet/*
    aboutme
