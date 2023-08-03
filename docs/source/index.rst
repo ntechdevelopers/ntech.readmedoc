@@ -12,6 +12,6 @@ Contents
 --------
 
 .. toctree::
-
-   roadmap_dotnet
+   
+   dotnet/*
    aboutme
