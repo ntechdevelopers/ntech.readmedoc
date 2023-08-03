@@ -13,5 +13,5 @@ Contents
 
 .. toctree::
 
-   dotnet/roadmap_dotnet
+   roadmap_dotnet
    aboutme
