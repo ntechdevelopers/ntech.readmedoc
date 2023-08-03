@@ -13,6 +13,7 @@ Contents
 
 .. toctree::
    :glob:
+   :reversed:
 
    dotnet/*
    aboutme
