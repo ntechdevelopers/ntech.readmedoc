@@ -12,9 +12,8 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 4
-   :numbered:		
-   :hidden:
-
-   ./dotnet/roadmap_dotnet
+   :glob:
    aboutme
+   dotnet*
+   dotnet/*
+   *
