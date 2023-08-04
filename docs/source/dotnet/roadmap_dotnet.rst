@@ -2,4 +2,5 @@ Roadmap .Net Developers
 ===
 
 .. autosummary::
-   :toctree: dotnet/roadmap_dotnet
+   :toctree: generated
+    roadmap_dotnet

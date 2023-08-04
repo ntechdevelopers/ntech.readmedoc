@@ -17,6 +17,10 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.graphviz',
+    'sphinx.ext.todo'
 ]
 
 intersphinx_mapping = {
@@ -25,10 +29,29 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
+# Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# -- Options for HTML output
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+# source_suffix = '.rst'
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}
+source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 
+# The master toctree document.
+root_doc = 'index'
+linkcheck_exclude_documents = [r'.*/dotnet/.*']
+
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']
+
+# -- Options for HTML output
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output

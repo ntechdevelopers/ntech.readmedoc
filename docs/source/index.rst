@@ -12,9 +12,9 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-   :glob:
-   :reversed:
+   :maxdepth: 4
+   :numbered:		
+   :hidden:
 
-   dotnet/*
+   ./dotnet/roadmap_dotnet
    aboutme
