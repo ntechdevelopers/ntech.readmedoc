@@ -1,7 +1,7 @@
-Roadmap .Net Developers
-===
+Roadmap
+=====
 
-.. autosummary::
-   :toctree: generated
+.. _github:
 
-   roadmap
+.Net Developers
+------------
