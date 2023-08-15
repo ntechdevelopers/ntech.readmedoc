@@ -1,26 +1,19 @@
 About me
 =====
 
-.. _github:
-
 GitHub
 ------------
 
-To-do...
-
-Ebooks
-----------------
-
-To-do...
+.. _github: https://github.com/ntechdevelopers
 
 
 Fanpage
 ----------------
 
-To-do...
+.. _facebook: https://www.facebook.com/ntechdevelopers
 
 
 Blog
 ----------------
 
-To-do...
+.. _blog: https://blog.ntechdevelopers.com/

@@ -1,6 +1,5 @@
 Roadmaps
 =====
-.. _github:
 
 Roadmap .Net Developers
 ------------

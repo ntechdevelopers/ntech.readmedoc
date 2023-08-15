@@ -1,5 +1,4 @@
 Clean Architecture
 =====
-.. _github:
 
 
