@@ -14,6 +14,7 @@ Contents
 .. toctree::
    :glob:
    
-   roadmap
+   roadmaps
+   architectures
    aboutme
 
