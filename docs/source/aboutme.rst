@@ -1,7 +1,8 @@
 About me
 =====
 
-.. _github:
+.. note::
+  This About me page.
 
 GitHub
 ------------

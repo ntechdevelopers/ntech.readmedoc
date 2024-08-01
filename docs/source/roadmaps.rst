@@ -1,6 +1,5 @@
 Roadmaps
 =====
-.. _github:
 
 .. note::
   This roadmap page.

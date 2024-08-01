@@ -1,5 +1,6 @@
 Clean Architecture
 =====
-.. _github:
 
+.. note::
+  This Clean Architecture page.
 

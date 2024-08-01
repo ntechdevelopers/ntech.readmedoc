@@ -5,7 +5,6 @@ Welcome to NtechDevelopers's documentation!
 Blog: `www.blog.ntechdevelopers.com`
 
 .. note::
-
    This project is under active development.
 
 Contents
@@ -16,5 +15,6 @@ Contents
    
    roadmaps
    architectures
+   designpatterns
    aboutme
 
