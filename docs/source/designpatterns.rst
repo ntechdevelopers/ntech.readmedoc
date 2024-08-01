@@ -7,5 +7,4 @@ Design Pattern
 Design Pattern Summary
 ------------
 .. toctree::
-
    ../designpatterns/design_pattern_summary.rst

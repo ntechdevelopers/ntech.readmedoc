@@ -5,15 +5,15 @@ Welcome to NtechDevelopers's documentation!
 Blog: `www.blog.ntechdevelopers.com`
 
 .. note::
-   This project is under active development.
+   NTechDevelopers is a community of Software development joined together with certain common goals: to learn, to teach and to have fun programming.
+   I hope that you find NTechDevelopers to be a wealth of information and a valuable resource.
 
 Contents
 --------
 
 .. toctree::
    :glob:
-   
-   roadmaps
+   overviews
    architectures
    designpatterns
    aboutme

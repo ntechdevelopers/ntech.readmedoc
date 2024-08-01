@@ -7,21 +7,16 @@ About me
 GitHub
 ------------
 
-To-do...
-
-Ebooks
-----------------
-
-To-do...
+-  `GitHub Ntechdevelopers <https://github.com/ntechdevelopers>`__ 
 
 
 Fanpage
 ----------------
 
-To-do...
+-  `Fanpage Ntechdevelopers <https://www.facebook.com/ntechdevelopers>`__ 
 
 
 Blog
 ----------------
 
-To-do...
+-  `Blog Ntechdevelopers <https://blog.ntechdevelopers.com>`__ 
