@@ -1,11 +1,9 @@
 Architectures
 =====
+.. _github:
 
-.. note::
-  This software architecture design.
-
+Clean Architecture
+------------
 .. toctree::
 
-  ../architectures/monolithic_architecture.rst
-  ../architectures/clean_architecture.rst
-   
+   ../architectures/clean_architecture.rst
