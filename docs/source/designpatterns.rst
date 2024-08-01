@@ -1,5 +1,5 @@
 Design Pattern
-=====
+===================================
 
 .. note::
   This Design Pattern page.

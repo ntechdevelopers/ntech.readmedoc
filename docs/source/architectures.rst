@@ -1,5 +1,5 @@
 Architectures
-=====
+===================================
 
 .. note::
   This Architectures page.
@@ -7,5 +7,4 @@ Architectures
 Clean Architecture
 ------------
 .. toctree::
-
    ../architectures/clean_architecture.rst
