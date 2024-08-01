@@ -1,14 +1,11 @@
 Roadmaps
 =====
 
-Roadmap .Net Developers
-------------
-.. image:: imgs/Roadmap_DotNet_Developers.png
-  :width: 600
-  :alt: Roadmap DotNet Developers
+.. note::
+  This roadmap page.
 
-Roadmap AspNetCore Developers
-------------
-.. image:: imgs/Roadmap_AspNetCore_Developers.png
-  :width: 600
-  :alt: Roadmap AspNetCore Developers
+.. toctree::
+
+  ../roadmaps/roadmap_dotnet.rst
+
+   
