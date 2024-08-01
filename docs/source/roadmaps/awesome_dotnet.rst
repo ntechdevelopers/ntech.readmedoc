@@ -1,6 +1,12 @@
 Awesome DotNet
 ===================================
 
+.. note::
+  This Awesome DotNet page.
+
+Awesome DotNet
+------------
+
 -  `Awesome DotNet <#awesome-dotnet>`__
 
    -  `Algorithms and Data
@@ -548,7 +554,7 @@ Calendar
    calendaring applications and libraries.
 
 Chat
-====
+--------
 
 -  `Stream <https://github.com/GetStream/stream-chat-net>`__ Official
    .NET API client for Stream Chat, a service for building chat
@@ -3073,7 +3079,7 @@ Source Generator
    without using reflection.
 
 Other Lists
-===========
+--------
 
 -  `.NET-libraries-that-make-your-life-easier <https://github.com/tallesl/net-libraries-that-make-your-life-easier>`__
    - Open Source .NET libraries that make your life easier
@@ -3122,7 +3128,7 @@ Other Lists
    - Game examples implemented in .NET console applications.
 
 Resources
-=========
+--------
 
 -  `Discover .NET <https://discoverdot.net>`__ - Awesome .NET open
    source and community resources.
