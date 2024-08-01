@@ -13,6 +13,7 @@ Contents
 
 .. toctree::
    :glob:
+
    overviews
    architectures
    designpatterns
