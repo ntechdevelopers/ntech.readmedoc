@@ -4,8 +4,6 @@ Overview
 .. note::
   This Overview page.
 
-**Overview**
-
 .. toctree::
 
   ../overviews/awesome_dotnet.rst
