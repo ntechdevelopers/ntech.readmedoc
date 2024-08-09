@@ -19,6 +19,7 @@ Contents
    designpatterns
    coding
    testing
+   deployments
    decisionanalysisandresolution
    chatgptprompt
    aboutme
