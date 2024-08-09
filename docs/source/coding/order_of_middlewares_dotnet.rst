@@ -4,6 +4,7 @@ Order of Middlewares in DotNet
 **What should be the other of the middlewares in the .Net pipeline?**
 
 The recommended order of middlewares in the pipeline is as follows:
+
 1. 𝐔𝐬𝐞𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧𝐇𝐚𝐧𝐝𝐥𝐞𝐫 - This middleware is used for global exception handling. It catches any unhandled exceptions during request processing and generates an appropriate error response.
 2. 𝐔𝐬𝐞𝐇𝐬𝐭𝐬 - This middleware is used to enforce HTTPS. It adds the HTTP Strict Transport Security (HSTS) header to the response, instructing the client always to use HTTPS.
 3. 𝐔𝐬𝐞𝐇𝐭𝐭𝐩𝐬𝐑𝐞𝐝𝐢𝐫𝐞𝐜𝐭𝐢𝐨𝐧- This middleware causes an automatic redirection to HTTPS URL when an HTTP URL is received, in a way that forces a secure connection.

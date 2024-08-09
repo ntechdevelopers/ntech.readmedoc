@@ -8,6 +8,7 @@ Choosing the correct design pattern in software engineering is critical to pract
 This post will try to simplify the process, helping you decide between patterns based on specific needs.
 
 To select a pattern, we must first go through the problem identification. If the problem is related to:
+
 - Object Creation? - Creational Patterns 
 - Object Assembly? - Structural Patterns
 - Object Interections? - Behavioral Patterns
