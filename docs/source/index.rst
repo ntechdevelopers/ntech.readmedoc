@@ -17,6 +17,9 @@ Contents
    overviews
    architectures
    designpatterns
+   coding
+   testing
+   decisionanalysisandresolution
    chatgptprompt
    aboutme
 
