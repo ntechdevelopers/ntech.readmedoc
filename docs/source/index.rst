@@ -1,7 +1,7 @@
 Welcome to NtechDevelopers's documentation!
 ===================================
 
-**NtechDevelopers** Blog: `www.blog.ntechdevelopers.com <https://blog.ntechdevelopers.com/>`
+**NtechDevelopers** Blog: `www.blog.ntechdevelopers.com <https://blog.ntechdevelopers.com/>`__
 
 .. note::
    NTechDevelopers is a community of Software development joined together with certain common goals: to learn, to teach and to have fun programming.
