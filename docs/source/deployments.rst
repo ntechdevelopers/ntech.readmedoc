@@ -1,4 +1,4 @@
-ChatGPT Prompts
+Developments
 ===================================
 
 .. toctree::

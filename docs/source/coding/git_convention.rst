@@ -3,7 +3,7 @@ Git Conventions
 
 **Git flow**
 
-# Commit message
+- Commit message
 
 When writing a commit message, it should adhere to the following guidelines:
 
@@ -30,7 +30,7 @@ For example:
 feat: Add password validation
 ```
 
-Tags:
+- Tags:
 
 * `feat`: New feature or functionality for the user, not a new feature for the build script
 * `fix`: Bug fix for the user, not a fix to a build script
@@ -41,7 +41,7 @@ Tags:
 * `chore`: Updating build scripts or upgrading dependencies; no production code change
 * `misc`: Use for anything that doesn't clearly fall into any of the previous categories
 
-# Branch name
+- Branch name
 
 Example:
 

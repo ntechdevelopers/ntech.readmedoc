@@ -1,7 +1,8 @@
 Coding Convention
 ===================================
 
-✍️ 1. Coding convention by google
+✍️ **1. Coding convention by google**
+
 - C++: https://google.github.io/styleguide/cppguide.html
 - C#: https://google.github.io/styleguide/csharp-style.html
 - Swift: https://google.github.io/swift/
@@ -17,7 +18,8 @@ Coding Convention
 - Lisp: https://google.github.io/styleguide/lispguide.xml
 - Vim script: https://google.github.io/styleguide/vimscriptguide.xml
 
-✍️ 2. Coding convention by sonar
+✍️ **2. Coding convention by sonar**
+
 - C++: https://rules.sonarsource.com/cpp
 - C#: https://rules.sonarsource.com/csharp
 - Swift: https://rules.sonarsource.com/swift
