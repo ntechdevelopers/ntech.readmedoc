@@ -2,15 +2,16 @@ Design Pattern Summary
 ===================================
 
 
-**𝗪𝗵𝗲𝗻 𝘁𝗼 𝘀𝗲𝗹𝗲𝗰𝘁 𝗗𝗲𝘀𝗶𝗴𝗻 𝗣𝗮𝘁𝘁𝗲𝗿𝗻𝐬?**
+**When to select Design Pattern?**
 
 Choosing the correct design pattern in software engineering is critical to practical problem-solving. 
 This post will try to simplify the process, helping you decide between patterns based on specific needs.
 
 To select a pattern, we must first go through the problem identification. If the problem is related to:
- 🔸 𝐎𝐛𝐣𝐞𝐜𝐭 𝐂𝐫𝐞𝐚𝐭𝐢𝐨𝐧? → 𝐂𝐫𝐞𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐏𝐚𝐭𝐭𝐞𝐫𝐧𝐬
- 🔸 𝐎𝐛𝐣𝐞𝐜𝐭 𝐀𝐬𝐬𝐞𝐦𝐛𝐥𝐲? → 𝐒𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐚𝐥 𝐏𝐚𝐭𝐭𝐞𝐫𝐧𝐬
- 🔸 𝐎𝐛𝐣𝐞𝐜𝐭 𝐈𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐨𝐧𝐬? → 𝐁𝐞𝐡𝐚𝐯𝐢𝐨𝐫𝐚𝐥 𝐏𝐚𝐭𝐭𝐞𝐫𝐧𝐬
+- Object Creation? - Creational Patterns 
+- Object Assembly? - Structural Patterns
+- Object Interections? - Behavioral Patterns
+
 
 1. Singleton: Ensures only one instance exists.
 2. Factory Method: Delegates object instantiation to subclasses.
