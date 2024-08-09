@@ -7,4 +7,4 @@ If you have a fast Internet connection into your home (either a DSL connection o
 
 Basically, a firewall is a barrier to keep destructive forces away from your property. In fact, that's why its called a firewall. Its job is similar to a physical firewall that keeps a fire from spreading from one area to the next. As you read through this article, you will learn more about firewalls, how they work and what kinds of threats they can protect you from.
 
--  `What is a Firewall? <https://www.kaspersky.com/resource-center/definitions/firewall>`
+-  `What is a Firewall? <https://www.kaspersky.com/resource-center/definitions/firewall>`__

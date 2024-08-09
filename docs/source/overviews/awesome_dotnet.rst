@@ -4,6 +4,9 @@ Awesome DotNet
 .. note::
   This Awesome DotNet page.
 
+-  `Awesome DotNet Core <https://github.com/ntechdevelopers/fork.awesome-dotnet-core>`__
+
+
 **Algorithms and Data structures**
 
 -  `Algorithmia <https://github.com/SolutionsDesign/Algorithmia>`__ -
