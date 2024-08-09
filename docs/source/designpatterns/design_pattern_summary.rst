@@ -1,9 +1,6 @@
 Design Pattern Summary
 ===================================
 
-.. note::
-  This Design Pattern Summary page.
-
 
 **𝗪𝗵𝗲𝗻 𝘁𝗼 𝘀𝗲𝗹𝗲𝗰𝘁 𝗗𝗲𝘀𝗶𝗴𝗻 𝗣𝗮𝘁𝘁𝗲𝗿𝗻𝐬?**
 
