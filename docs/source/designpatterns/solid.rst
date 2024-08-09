@@ -1,6 +1,22 @@
 SOLID
 ===================================
 
+SOLID tells us how to arrange functions and data structures into classes / modules, and how those classes / modules should be interconnected. SOLID is therefore applied at the mid-level (class / module level).
+
+- There are other sets of principles for the component level and the high-level architecture. We will study these later.
+
+SOLID is not limited OOP. In the context of SOLID, a "class / module" is a grouping of functions and data (all software have this grouping, whether it is called a class a module or something else). We will refer to this grouping as class or a module interchangeably in this part.
+
+- For many languages and teams a module is coded in a single source file, but this doesn't have to be the case.
+
+SOLID goals: produce mid-level software structures that:
+
+- Tolerate change
+- Are easy to understand
+- Are the basis of components that can be used in many systems (are reusable).
+
+
+
 **1. What is Single Responsibility Principle?**
 
 A class should have only one reason to change.
