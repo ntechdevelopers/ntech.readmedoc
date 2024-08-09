@@ -17,5 +17,6 @@ Contents
    overviews
    architectures
    designpatterns
+   chatgptprompt
    aboutme
 
