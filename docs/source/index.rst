@@ -15,12 +15,14 @@ Contents
    :glob:
 
    overviews
+   roadmaps
    architectures
    designpatterns
    coding
    testing
    deployments
    decisionanalysisandresolution
+   howthingwork
    chatgptprompt
    aboutme
 

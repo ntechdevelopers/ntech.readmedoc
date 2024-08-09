@@ -1,0 +1,10 @@
+How Operating Systems Work
+===================================
+
+When you turn on your computer, it's nice to think that you're in control. There's the trusty mouse, which you can move anywhere on the screen, summoning up your music library or internet browser at the slightest whim. Although it's easy to feel like a director in front of your desktop or laptop, there's a lot going on inside, and the real person behind the curtain handling the necessary tasks is the operating system.
+
+Microsoft Windows powers most of the computers we use for work or personal use. Macintosh computers come pre-loaded with macOS. Linux and UNIX operating systems are popular for digital content servers, but many distributions or distros, have become increasingly popular for everyday use. Regardless of your choice, without an operating system, you're not going to get anything done.
+
+Other devices have their own operating systems. Google's Android and Apple's iOS are the most common smartphone OSes as of the 2020s, although some manufacturers have developed their own, mostly based on the Android operating system. Apple ships iPads with iPadOS, Apple watches with watchOS and Apple TV uses tvOS. And there are all kinds of other devices that have their own operating systems — think Internet of Things devices, smart TVs and the systems that run car infotainment systems. And that doesn't even include the complex systems needed in self-driving cars.
+
+The purpose of an operating system is to organize and control hardware and software so that the device it lives in behaves in a flexible but predictable way. In this article, we'll tell you what a piece of software must do to be called an operating system, show you how the operating system in your desktop computer works and give you some examples of how to take control of the other operating systems around you.
