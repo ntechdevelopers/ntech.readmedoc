@@ -8,3 +8,4 @@ Coding
    ../coding/git_convention.rst
    ../coding/http_request_methods.rst
    ../coding/order_of_middlewares_dotnet.rst
+   ../coding/performance_tuning.rst
