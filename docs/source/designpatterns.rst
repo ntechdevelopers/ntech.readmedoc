@@ -7,3 +7,5 @@ Design Pattern & Design Principle
    ../designpatterns/design_pattern_summary.rst
    ../designpatterns/solid.rst
    ../designpatterns/dependency_injection.rst
+   ../designpatterns/integration_patterns.rst
+
