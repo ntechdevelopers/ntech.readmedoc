@@ -52,3 +52,24 @@ Web API Security
 
 - Based on IP, domain
 - Reduces brute force and DoS and DDoS Attacks
+
+---------------------
+
+**Api Security Practices**
+
+- Authentication
+- Authorization
+- Rate Limiting
+- Input Validation & Data Sanitization
+- Encryption
+- Error Handling
+- Logging and Monitoring
+- Security Headers
+- Token Expiry
+- IP Whitelisting	
+- Web Application Firewall	
+- API Versioning
+- Secure Dependencies
+- Intrution Detection Systems
+- Use of Security Standards and Frameworks
+- Data Redaction
