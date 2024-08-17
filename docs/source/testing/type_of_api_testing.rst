@@ -1,4 +1,4 @@
-9 Types of API Testing
+Types of API Testing
 ===================================
 
 ✍️  01 Validation Testing 
