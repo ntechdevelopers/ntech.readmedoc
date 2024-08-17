@@ -9,6 +9,7 @@ Overview
 
 
 **POC Repositories**
+------------
 
 -  `ntech.headerpropagation <https://github.com/ntechdevelopers/ntech.headerpropagation>`__
 -  `ntech.disableintrospection <https://github.com/ntechdevelopers/ntech.disableintrospection>`__
@@ -23,6 +24,7 @@ Overview
 
 
 **Template Architecture DotNet Repositories**
+------------
 
 -  `ntech.cleararchitecture <https://github.com/ntechdevelopers/ntech.cleararchitecture>`__
 -  `ntech.modular <https://github.com/ntechdevelopers/ntech.modular>`__
@@ -31,6 +33,7 @@ Overview
 -  `ntech.plugin.wpf <https://github.com/ntechdevelopers/ntech.plugin.wpf>`__
 
 **Other Repositories**
+------------
 
 -  `ntech.performance.spiderum <https://github.com/ntechdevelopers/ntech.performance.spiderum>`__
 -  `ntech.scraping.ebooks <https://github.com/ntechdevelopers/ntech.scraping.ebooks>`__
@@ -40,6 +43,7 @@ Overview
 -  `ntech.interview <https://github.com/ntechdevelopers/Ntech.Interview>`__
 
 **References**
+------------
 
 .. toctree::
 
