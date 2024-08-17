@@ -1,4 +1,4 @@
-Top 9 Http Request Methods
+Http Request Methods
 ===================================
 
 **GET**

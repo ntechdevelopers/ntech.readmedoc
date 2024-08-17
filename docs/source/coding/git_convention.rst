@@ -20,15 +20,15 @@ When writing a commit message, it should adhere to the following guidelines:
 
 Commit messages' subjects are preceded by a tag to make it easier to read through them and filter them out:
 
-```
+``
 <type>: <commit subject>
-```
+``
 
 For example:
 
-```
+``
 feat: Add password validation
-```
+``
 
 - Tags:
 
@@ -45,6 +45,6 @@ feat: Add password validation
 
 Example:
 
-```
+``
 features/001_login_logout
-```
+``
