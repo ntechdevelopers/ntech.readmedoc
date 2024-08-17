@@ -1,4 +1,4 @@
-System Design Interview: Mastering Databases
+Mastering Databases
 ===================================
 
 **Types of Databases**

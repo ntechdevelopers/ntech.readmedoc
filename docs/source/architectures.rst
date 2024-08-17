@@ -7,6 +7,6 @@ Architectures
    ../architectures/monolithic_architecture.rst
    ../architectures/modular_architecture.rst
    ../architectures/microservice_architecture.rst
-   ../architectures/system_design_interview_mastering_databases.rst
+   ../architectures/system_design_interview.rst
    ../architectures/core_data_concepts.rst
    ../architectures/data_security.rst
