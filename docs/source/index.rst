@@ -16,7 +16,7 @@ Contents
    overviews
    roadmaps
    architectures
-   designpatterns
+   design
    coding
    testing
    deployments

@@ -1,8 +1,6 @@
-Design Pattern Summary
+When to select Design Pattern
 ===================================
 
-
-**When to select Design Pattern?**
 
 Choosing the correct design pattern in software engineering is critical to practical problem-solving. 
 This post will try to simplify the process, helping you decide between patterns based on specific needs.

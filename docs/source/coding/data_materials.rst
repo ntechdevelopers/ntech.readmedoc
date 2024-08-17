@@ -7,4 +7,6 @@ Data Materials
 .. toctree::
 
   ../coding/data_materials/core_data_concepts.rst
+  ../coding/data_materials/data_integration_patterns.rst
+  
 
