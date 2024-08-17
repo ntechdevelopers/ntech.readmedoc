@@ -7,6 +7,7 @@ Coding
    ../coding/code_review.rst
    ../coding/git_convention.rst
    ../coding/http_request_methods.rst
+   ../coding/common_http_status_code.rst
    ../coding/order_of_middlewares_dotnet.rst
    ../coding/performance_tuning.rst
    ../coding/web_api_security.rst
