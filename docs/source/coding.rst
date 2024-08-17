@@ -9,3 +9,5 @@ Coding
    ../coding/http_request_methods.rst
    ../coding/order_of_middlewares_dotnet.rst
    ../coding/performance_tuning.rst
+   ../coding/web_api_security.rst
+   
