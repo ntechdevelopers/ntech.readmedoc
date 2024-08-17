@@ -1,4 +1,4 @@
-Design Pattern & Design Principal
+Design Pattern & Design Principle
 ===================================
 
 
