@@ -21,7 +21,6 @@ Contents
    testing
    deployments
    decisionanalysisandresolution
-   howthingwork
    chatgptprompt
    aboutme
 
