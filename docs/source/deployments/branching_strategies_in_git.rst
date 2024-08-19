@@ -96,7 +96,7 @@ The Master and Develop branches are the main branches, and persist throughout th
     + GitFlow’s complexity may slow down the development process and release cycle, making it less suitable for continuous integration and continuous delivery. 
 
 
-**GitHub Flow **
+**GitHub Flow**
 
 GitHub flow is a simpler alternative to GitFlow, idea for smaller teams. GitHub flow only has feature branches that stem directly from the master branch and are merged back to master after completing changes. They don’t have release branches. The fundamental concept of this model revolves around maintaining the master code in a consistently deployable condition, thereby enabling the seamless implementation of faster release cycles, continuous integration and continuous delivery workflows. 
 
