@@ -35,6 +35,7 @@ To select a pattern, we must first go through the problem identification. If the
 21. Chain of Responsibility: Passes requests along a chain of handlers.
 22. Template Method: Defines the skeleton of an algorithm.
 
-.. image:: ./imgs/design_pattern_summary.gif
+
+.. image:: ./imgs/design_pattern_summary.jpg
   :width: 600
   :alt: Roadmap DotNet Developers
