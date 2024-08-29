@@ -381,7 +381,8 @@ Test Scenarios For Website Testing
 10. Verify that Html code not be implemented in the text area or the result section on click on the Submit button. For example <H1> Hello </H1> 
 11. Verify Java Script code not be implemented in the text area or the result section on click on the Submit button. For example <script>alert(“123”)</script> an alert should not be shown.
 12. Verify the error message shown by uploading a file containing JavaScript and Html code mixed with content.
-13. Verify the input text area is protected from the SQL injection.14.Verify the format should be the same as the copied content and paste on the other or same text area. 
+13. Verify the input text area is protected from the SQL injection.
+14. Verify the format should be the same as the copied content and paste on the other or same text area. 
 15. Verify if the user copy/pastes highlighted content, then don’t display the copied content highlighted. 
 16. Verify user can paste the content with the help of a mouse, by right-clicking and selecting the paste option in the text area.
 17. Verify content uploaded by dragging and dropping a file in the text area.
@@ -413,7 +414,8 @@ Test Scenarios For Website Testing
 11. Verify the text area should be locked and fixed. Don’t let the user resize the text area.
 12. Verify if the user can add and process duplicate content.
 13. Verify tooltip added and shown if required.
-14. Verify mouse hover functionality if added.15.Verify the clear text icon present in the text area. 
+14. Verify mouse hover functionality if added.
+15. Verify the clear text icon present in the text area. 
 
 **Test Cases For Search Functionality**
 
@@ -527,17 +529,17 @@ Test Scenarios For Website Testing
 19. Check the text length for the maximum char or words are shown or not in the dropdown. 
 20. Verify that the user can choose any value from the dropdown by clicking on the tab button on the keyboard.
 
-If Search is added in the Dropdown 
- 
-	1.Verify search field should be clickable or not by clicking on the search field. 
-	2.Verify that the text is added in the search field or not from keyboard typing. 
-	3.Verify user can be able to paste the text in the search field by mouse.
-	4.Verify that the value from the list should be selected if the user adds a valid keyword. 
-	5.Verify a proper error message should be shown in case if the user adds an invalid keyword. 
+	If Search is added in the Dropdown 
+	
+		1. Verify search field should be clickable or not by clicking on the search field. 
+		2. Verify that the text is added in the search field or not from keyboard typing. 
+		3. Verify user can be able to paste the text in the search field by mouse.
+		4. Verify that the value from the list should be selected if the user adds a valid keyword. 
+		5. Verify a proper error message should be shown in case if the user adds an invalid keyword. 
 
-Dropdown used in web forms for validation 
+	Dropdown used in web forms for validation 
 
-	1.Validate dropdown should open or not if satisfying the condition. For example, if the user selects the value from the checkbox as YES then the dropdown is allowed to open and select the value from the dropdown list. 
+		1. Validate dropdown should open or not if satisfying the condition. For example, if the user selects the value from the checkbox as YES then the dropdown is allowed to open and select the value from the dropdown list. 
 
 **Test Cases For Tooltip**
 
