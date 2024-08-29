@@ -104,30 +104,30 @@ These commands are essential for managing multi-container  applications with Doc
 
 Here’s a sample Docker Compose file (docker-compose.yml) that demonstrates a basic configuration for a multi-service application:
 
-```
-version: '3.8' # Specify the Docker Compose version
-services:
-    app:
-image: node:20-alpine # Use the official Node.js image
-working_dir: /src # Set the working directory inside the container
-volumes: 
-    - .:/src # Mount the current directory to /src inside the container
-ports: 
-    - "3000:3000" # Map port 3000 on the host to port 3000 in the container
-command: npm run start # Command to start the Node.js application
-depends_on: 
-    - db # Ensure the app service starts after the db service
-db:
-image: postgres:15-alpine # Use the official PostgreSQL image
-environment:
-POSTGRES_USER: example_user # Set the database username
-POSTGRES_PASSWORD: example_pass # Set the database password
-POSTGRES_DB: example_db # Set the database name
-volumes: 
-    - db_data:/var/lib/postgresql/data # Persist database data
-volumes:
-db_data: # Define a named volume for database persistence
-```
+
+| version: '3.8' # Specify the Docker Compose version
+| services:
+|     app:
+| image: node:20-alpine # Use the official Node.js image
+| working_dir: /src # Set the working directory inside the container
+| volumes: 
+|     - .:/src # Mount the current directory to /src inside the container
+| ports: 
+|     - "3000:3000" # Map port 3000 on the host to port 3000 in the container
+| command: npm run start # Command to start the Node.js application
+| depends_on: 
+|     - db # Ensure the app service starts after the db service
+| db:
+| image: postgres:15-alpine # Use the official PostgreSQL image
+| environment:
+| POSTGRES_USER: example_user # Set the database username
+| POSTGRES_PASSWORD: example_pass # Set the database password
+| POSTGRES_DB: example_db # Set the database name
+| volumes: 
+|     - db_data:/var/lib/postgresql/data # Persist database data
+| volumes:
+| db_data: # Define a named volume for database persistence
+
 
 In this example:
 
@@ -148,24 +148,22 @@ In this example:
 
 Here’s a sample Dockerfile that demonstrates the basic structure and commonly used commands:
 
-```
-# Use an official Node.js runtime as a parent image
-FROM node:20-alpine
-# Set the working directory
-WORKDIR /src
-# Copy package.json and package-lock.json to the working directory
-COPY package.json package-lock.json ./
-# Install dependencies
-RUN npm install
-# Copy the rest of the application code to the working directory
-COPY . .
-# Build the application
-RUN npm run build
-# Expose the application port
-EXPOSE 3000
-# Start the application
-CMD ["npm", "run", "start"]
-```
+| # Use an official Node.js runtime as a parent image
+| FROM node:20-alpine
+| # Set the working directory
+| WORKDIR /src
+| # Copy package.json and package-lock.json to the working directory
+| COPY package.json package-lock.json ./
+| # Install dependencies
+| RUN npm install
+| # Copy the rest of the application code to the working directory
+| COPY . .
+| # Build the application
+| RUN npm run build
+| # Expose the application port
+| EXPOSE 3000
+| # Start the application
+| CMD ["npm", "run", "start"]
 
 Explanation:
 

@@ -10,11 +10,9 @@ We are considering a static web application developed in react.
 
 To run an node application we need to follow some steps: 
 
-```
-# Install Node 
-npm install 
-npm start
-```
+| # Install Node 
+| npm install 
+| npm start
 
 Based on your application development you choose the dependencies.
 
@@ -85,11 +83,9 @@ Example: ``EXPOSE 3000`` it means our container is listening on port 3000. The E
 
 By default Docker run the application by using root privileges. To root privileges are the highest privileges, to reduce it we use regular user to start the application with lowest privileges. Linux commands to create group and user and assign to it. 
 
-```
-addgroup app 
-adduser -S -G app user01 
-# we can combine these two commands into a sing line addgroup app && adduser -S -G app user01 
-```
+| addgroup app 
+| adduser -S -G app user01 
+| # we can combine these two commands into a sing line addgroup app && adduser -S -G app user01 
 
 In Docker file we use RUN to execute this command 
 ``RUN addgroup app && adduser -S -G app app``, here app is the user name and the group name as well. Once we set that the we use USER command to set the user USER app after that all the following commands will be executed using this user. 
@@ -107,12 +103,10 @@ The difference between the RUN and the CMD instructions is:
 - The CMD instruction is an run-time instruction, it is executed when starting a container. 
 - The CMD instruction has two forms 1. Shell form, 2. Execute form which takes array of strings. 
 
-```
-#shell form  
-CMD npm start 
-#Exec form 
-CMD ["npm", "start"] 
-```
+| #shell form  
+| CMD npm start 
+| #Exec form 
+| CMD ["npm", "start"] 
 
 The difference is if you use shell form the docker will execute the command inside a different shell. The common best form to use is Execute form. Because by using Exec form we can directly execute the commands with out spinning up the new process.  
 ENTRYPOINT is also similar to the CMD instruction it also has two forms SHELL form and Exec form. 
@@ -124,14 +118,12 @@ The both CMD and ENTRYPOINT is used for supply the default instruction or comman
 
 Complete Docker File example for react-app:
 
-```
-FROM node:14.16.0-alpine3.13 
-RUN addgroup app && adduser -S -G app app USER app 
-WORKDIR /app 
-COPY . . 
-RUN npm install 
-ENV API_URL=http://api.myapp.com/ EXPOSE 3000 
-CMD ["npm", "start"]
-```
+| FROM node:14.16.0-alpine3.13 
+| RUN addgroup app && adduser -S -G app app USER app 
+| WORKDIR /app 
+| COPY . . 
+| RUN npm install 
+| ENV API_URL=http://api.myapp.com/ EXPOSE 3000 
+| CMD ["npm", "start"]
 
 
