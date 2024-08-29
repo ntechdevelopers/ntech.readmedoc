@@ -6,4 +6,5 @@ Design Pattern & Design Principle
 
    ../design/design_pattern_summary.rst
    ../design/design_principle.rst
+   ../design/design_pattern.rst
 
