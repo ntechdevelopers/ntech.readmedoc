@@ -28,7 +28,8 @@ Test Scenarios For Website Testing
 2. Verify there should be no extra white space at the end of the footer on high screen resolutions.
 3. Verify element is aligned at the footer section or not.
 4. Verify footer section should be the same for all pages.
-5. Verify the logo shown at the footer.6. Verify logo is aligned on the footer.
+5. Verify the logo shown at the footer.
+6. Verify logo is aligned on the footer.
 7. Verify from any page on click on the logo home page should be open. 
 8. Verify by clicking on the links correct pages should be loaded. 
 9. Verify all social links with icons added on the footer.
@@ -61,7 +62,8 @@ Test Scenarios For Website Testing
 11. Verify that the user can only be able to upload the allowed files only. For example doc, Docx or pdf, or image files like jpg, png, etc.
 12. Verify a proper error message should be shown in case the user tries to upload the file which is not allowed. File type not allowed.
 13. Verify an error message should be shown in case the user tries to upload files more than the allowed limit.
-14. Verify on uploading file loader should be shown.15.Verify there should be some indication on the upload file.
+14. Verify on uploading file loader should be shown.
+15. Verify there should be some indication on the upload file.
 16. Verify on upload a locked file password popup should be shown.
 17. Verify file should be uploaded if the user adds the correct password for the locked file. 
 18. Verify a proper error message should be shown in case if password added for the protected or locked file is not correct.
@@ -181,7 +183,8 @@ Test Scenarios For Website Testing
 2. Verify the button colour same as per design.
 3. Verify icon added on the button if added in the design. for example Upload or download icon with the button.
 4. Verify icon added on the button must be aligned with button and button text or not.
-5. Verify width and height for the button.6.Verify border radius is applied on the button or not.
+5. Verify width and height for the button.
+6. Verify border radius is applied on the button or not.
 7. Verify that the width and height of the buttons used on the website are the same or not as per design.
 8. Verify button text related to the functionality of the tool on the web page. 
 9. Verify button is enabled/clickable or not by clicking on the button. 
@@ -604,8 +607,8 @@ Positive Test Cases
 12. Check banners or images should be shown and aligned on mobile devices. And should not be trimmed.
 13. Verify the text on the images should be readable. 
 14. Verify the spellings should be correct on the web page.
-15. 16. Check the colours for the links added to the text.
-Verify the correct page should be open on click on the link. 
+15. Check the colours for the links added to the text.
+16. Verify the correct page should be open on click on the link. 
 17. Verify the headings on the content.
 18. Verify whether the validation is on the fields added or not. 
 19. A confirmation message is shown on the popup or alert in case of delete functionality on the web page or not.
