@@ -10,11 +10,11 @@ We are considering a static web application developed in react.
 
 To run an node application we need to follow some steps: 
 
-``
+```
 # Install Node 
 npm install 
 npm start
-``
+```
 
 Based on your application development you choose the dependencies.
 
@@ -55,15 +55,15 @@ Instead of specifying directory explicitly in copy we can use the WORKDIR it wil
 
 ``WORKDIR /app`` now we can use COPY . . it mans the relative path in this case  /app/ .  
 
-If the file name has spaces it will cause syntax errors. for example hello world.txt we need to make an entry like array of strings. Like ``COPY [”hello world.txt”, “.”] ``. 
+If the file name has spaces it will cause syntax errors. for example hello world.txt we need to make an entry like array of strings. Like ``COPY ["hello world.txt", "."]``. 
 
-ADD is like COPY but by using ADD we can copy files using the URL as well. Example: ``ADD http://…/file.json ``. 
+ADD is like COPY but by using ADD we can copy files using the URL as well. Example: ``ADD http://…/file.json``. 
 
 The another advantage of ADD is if we copy the compressed file it will automatically un-compress the files. 
 
 **Excluding Files and Directories**
 
-For excluding flies & directories like in git docker uses ``.dockerignore`` file to ignore. In that file we can mention files and directories. for example ``node_modules/ ``, Here we are excluding the node third-party libraries in node application development. By using it we can reduce the transferring context.  
+For excluding flies & directories like in git docker uses ``.dockerignore`` file to ignore. In that file we can mention files and directories. for example ``node_modules/``, Here we are excluding the node third-party libraries in node application development. By using it we can reduce the transferring context.  
 
 **Running Commands**
 
@@ -73,7 +73,7 @@ RUN is used to execute the commands for installing dependencies of our applicati
 
 **Setting Environment Variables**
 
-The environment variables is used to change the values in your application for example if you want to update the api link in the front end application we use ``ENV API_URL=http://api-myapp.com/ ``, Here API_URL is the environment variable and  the URL is it is value. 
+The environment variables is used to change the values in your application for example if you want to update the api link in the front end application we use ``ENV API_URL=http://api-myapp.com/``, Here API_URL is the environment variable and  the URL is it is value. 
 ENV is used to work with environment variables. With out equal sign also it works but it is prefer to use. 
 
 **Exposing Ports**
@@ -85,14 +85,14 @@ Example: ``EXPOSE 3000`` it means our container is listening on port 3000. The E
 
 By default Docker run the application by using root privileges. To root privileges are the highest privileges, to reduce it we use regular user to start the application with lowest privileges. Linux commands to create group and user and assign to it. 
 
-``
+```
 addgroup app 
 adduser -S -G app user01 
 # we can combine these two commands into a sing line addgroup app && adduser -S -G app user01 
-``
+```
 
 In Docker file we use RUN to execute this command 
-``RUN addgroup app && adduser -S -G app app ``, here app is the user name and the group name as well. Once we set that the we use USER command to set the user USER app after that all the following commands will be executed using this user. 
+``RUN addgroup app && adduser -S -G app app``, here app is the user name and the group name as well. Once we set that the we use USER command to set the user USER app after that all the following commands will be executed using this user. 
 
 If we run our application using root user the hacker might re-write the application if we run it by using system user it has only the read privileges no write privileges.  
 If you are defining users you should need to define them immediately after the  FORM after choosing the base image. 
@@ -107,24 +107,24 @@ The difference between the RUN and the CMD instructions is:
 - The CMD instruction is an run-time instruction, it is executed when starting a container. 
 - The CMD instruction has two forms 1. Shell form, 2. Execute form which takes array of strings. 
 
-``
+```
 #shell form  
 CMD npm start 
 #Exec form 
 CMD ["npm", "start"] 
-``
+```
 
 The difference is if you use shell form the docker will execute the command inside a different shell. The common best form to use is Execute form. Because by using Exec form we can directly execute the commands with out spinning up the new process.  
 ENTRYPOINT is also similar to the CMD instruction it also has two forms SHELL form and Exec form. 
 
-Example: ``ENTRYPOINT npm start or ENTRYPOINT [”npm”, “start”] ``. 
+Example: ``ENTRYPOINT npm start or ENTRYPOINT [”npm”, “start”]``. 
 
 The difference is we can overwrite the CMD during the starting of our container. we can not easily overwrite the ENTRYOINT command. If you want to change the entry point command we need to use ``--entrypoint`` attribute during the running of a container. 
 The both CMD and ENTRYPOINT is used for supply the default instruction or command. 
 
 Complete Docker File example for react-app:
 
-``
+```
 FROM node:14.16.0-alpine3.13 
 RUN addgroup app && adduser -S -G app app USER app 
 WORKDIR /app 
@@ -132,6 +132,6 @@ COPY . .
 RUN npm install 
 ENV API_URL=http://api.myapp.com/ EXPOSE 3000 
 CMD ["npm", "start"]
-``
+```
 
 
