@@ -11,3 +11,5 @@ How Thing Work
   ../coding/howthingwork/how_firewalls_work.rst
   ../coding/howthingwork/how_osi_works.rst
   ../coding/howthingwork/order_of_middlewares_dotnet.rst
+  ../coding/howthingwork/syntax_ref_out_in_csharp.rst
+  
