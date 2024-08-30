@@ -38,4 +38,4 @@ To select a pattern, we must first go through the problem identification. If the
 
 .. image:: ./imgs/design_pattern_summary.jpg
   :width: 600
-  :alt: Roadmap DotNet Developers
+  :alt: When to select Design Pattern
