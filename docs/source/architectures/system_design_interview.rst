@@ -7,5 +7,6 @@ System Design Interview
 
 .. toctree::
 
-   ../architectures/systemdesigninterview/mastering_databases.rst
+  ../architectures/systemdesigninterview/distributed_system.rst
+  ../architectures/systemdesigninterview/mastering_databases.rst
    
