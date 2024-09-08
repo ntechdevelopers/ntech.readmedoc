@@ -27,6 +27,6 @@ Making the right database choice is a crucial decision for your projects.
 - SQL: Choose for well-defined data structures, complex queries, and strong data consistency needs.
 - NoSQL: Opt for flexibility, high scalability, and rapid development with evolving data requirements.
 
-.. image:: ./imgs/select database.gif
+.. image:: ./imgs/select_database.gif
   :width: 600
   :alt: SQL vs No SQL
