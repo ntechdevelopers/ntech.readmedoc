@@ -1,0 +1,16 @@
+How Thing Work
+===================================
+
+.. note::
+  This How Thing Work page.
+
+.. toctree::
+
+  ../coding/how_thing_work/how_operating_systems_work.rst
+  ../coding/how_thing_work/how_internet_cookies_work.rst
+  ../coding/how_thing_work/how_firewalls_work.rst
+  ../coding/how_thing_work/how_osi_works.rst
+  ../coding/how_thing_work/database_index_types.rst
+  ../coding/how_thing_work/order_of_middlewares_dotnet.rst
+  ../coding/how_thing_work/syntax_ref_out_in_csharp.rst
+  
