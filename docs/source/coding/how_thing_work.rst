@@ -13,5 +13,6 @@ How Thing Work
   ../coding/how_thing_work/database_index_types.rst
   ../coding/how_thing_work/order_of_middlewares_dotnet.rst
   ../coding/how_thing_work/syntax_ref_out_in_csharp.rst
+  ../coding/how_thing_work/how_to_azure_openai_chat_baseline_architecture.rst
   ../coding/how_thing_work/how_to_build_openai_chat_reference_architecture_on_azure.rst
-  
+
