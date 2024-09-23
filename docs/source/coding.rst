@@ -8,6 +8,6 @@ Coding
    ../coding/data_materials.rst
    ../coding/performance_materials.rst
    ../coding/security_materials.rst
-   ../coding/howthingwork.rst
+   ../coding/how_thing_work.rst
 
    
