@@ -25,8 +25,3 @@ Defined as the degree to which data meets a company's expectations of accuracy, 
 **6. Data Mining:**
 
 The process of searching and analyzing large batches of raw data to identify patterns and extract useful information. It's key to uncovering insights that drive business value.
-
-
-.. image:: ./imgs/core_data_concepts.png
-  :width: 600
-  :alt: Core Data Concepts
