@@ -10,6 +10,7 @@ How Thing Work
   ../coding/how_thing_work/how_internet_cookies_work.rst
   ../coding/how_thing_work/how_firewalls_work.rst
   ../coding/how_thing_work/how_osi_works.rst
+  ../coding/how_thing_work/how_sso_saml_works.rst
   ../coding/how_thing_work/how_rabbitmq_message_works.rst
   ../coding/how_thing_work/database_index_types.rst
   ../coding/how_thing_work/how_cicd_pipeline_works_on_azure.rst
