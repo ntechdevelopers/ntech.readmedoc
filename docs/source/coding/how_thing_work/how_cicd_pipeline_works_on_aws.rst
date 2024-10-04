@@ -29,3 +29,7 @@ CI/CD, which stands for Continuous Integration and Continuous Deployment, repres
 
 - Faster Delivery: Smaller, frequent releases with CodePipeline accelerate feature updates and bug fixes.
 - Enhanced Collaboration: AWS DevOps promotes collaborative development, enabling developers to work on different features without conflict, leading to more effective and harmonious teamwork.
+
+.. image:: ./imgs/how_cicd_pipeline_works_on_aws.gif
+  :width: 1200
+  :alt: How CICD Pipeline works on AWS 
