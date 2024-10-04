@@ -35,3 +35,7 @@ Test the setup by visiting your app via Front Door. Keep an eye on traffic using
 
 
 This setup ensures your Kubernetes workloads are safe, secure, and running smoothly.
+
+.. image:: ./imgs/how_to_secure_kubernetes_cluster_workload.gif
+  :width: 1200
+  :alt: how_to_secure_kubernetes_cluster_workload
