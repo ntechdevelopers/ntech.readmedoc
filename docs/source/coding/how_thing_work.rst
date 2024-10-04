@@ -13,6 +13,7 @@ How Thing Work
   ../coding/how_thing_work/how_rabbitmq_message_works.rst
   ../coding/how_thing_work/database_index_types.rst
   ../coding/how_thing_work/how_cicd_pipeline_works_on_azure.rst
+  ../coding/how_thing_work/how_cicd_pipeline_works_on_aws.rst
   ../coding/how_thing_work/order_of_middlewares_dotnet.rst
   ../coding/how_thing_work/syntax_ref_out_in_csharp.rst
   ../coding/how_thing_work/how_to_azure_openai_chat_baseline_architecture.rst
