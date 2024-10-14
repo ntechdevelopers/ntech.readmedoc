@@ -12,4 +12,5 @@ Developments
    ../deployments/docker_file.rst
    ../deployments/kubernetes_core_components.rst
 
+   ../deployments/cloud_azure.rst
    ../deployments/cloud_aws.rst

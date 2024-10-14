@@ -74,8 +74,7 @@ On Startup.cs class, add app.UseSecurityHeaders();
        });
    }
 
-Use Community Libraries:
-~~~~~~~~~~~~~~~~~~~~~~~~
+**Use Community Libraries:**
 
 -  `NWebsec <https://github.com/NWebsec/NWebsec>`__
 -  `aspnetcore-security-headers <https://github.com/juunas11/aspnetcore-security-headers>`__
