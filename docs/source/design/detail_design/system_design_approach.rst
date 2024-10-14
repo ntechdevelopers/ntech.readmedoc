@@ -1,4 +1,4 @@
-Core System Design Concepts
+System Design Approach
 ===================================
 
 1. Requirement Distinctions
