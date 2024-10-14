@@ -6,5 +6,5 @@ Cloud AWS
 
 .. toctree::
 
-  ../developments/cloud_aws/aws_native_service.rst
+  ../deployments/cloud_aws/aws_native_service.rst
 
