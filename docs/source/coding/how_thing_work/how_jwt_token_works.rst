@@ -16,13 +16,46 @@ This makes a JWT portable and stateless, enabling it to be used across different
 **Why JWT is Important:**
 
 1. **Security:**  
-   JWTs are signed and optionally encrypted, ensuring the integrity and confidentiality of the data.
+
+JWTs are signed and optionally encrypted, ensuring the integrity and confidentiality of the data.
 
 2. **Statelessness:**  
-   Unlike traditional session cookies, JWTs are stateless and do not require server-side storage.
+
+Unlike traditional session cookies, JWTs are stateless and do not require server-side storage.
 
 3. **Scalability:**  
-   Because the server does not need to store session data, it is easier to scale horizontally.
+
+Because the server does not need to store session data, it is easier to scale horizontally.
 
 4. **Interoperability:**  
-   JWTs can be used across different domains and technologies, making them versatile for various applications.
+
+JWTs can be used across different domains and technologies, making them versatile for various applications.
+
+**The Token Lifecycle**
+
+If you think managing tokens is as simple as setting them to expire, you're in for a surprise.
+Let’s break down each step of the JWT lifecycle and why it matters:
+
+- **Access Token:**  Your JWT is created with a short lifespan, e.g., 15 minutes. Every time a user accesses protected resources, the access token is sent for validation.
+- **Token Expiry:**  Once the access token expires, it’s no longer valid. This limits the exposure window in case the token is compromised.
+- **Refresh Token:**  It’s stored securely and used to request a new access token without forcing the user to re-authenticate. The refresh token typically has a much longer expiration, days or weeks.
+- **Token Exchange:**  The server verifies the refresh token, and if valid, issues a fresh access token. This maintains session continuity, enhancing both security and user experience.
+- **Token Revocation:**  If any suspicious activity is detected or the user logs out, the refresh token can be revoked. By keeping a blacklist, the server ensures that compromised tokens can’t be reused.
+
+The result? Seamless authentication, robust security, and full control over token lifecycles.
+
+**The Risks of Poor Token Management**
+
+1. **No Expiration:**  
+
+Tokens that don’t expire quickly expose the system to prolonged risk if they are stolen or compromised. Attackers could use them for extended periods.
+
+2. **Improper Refresh Token Management:**  
+
+If refresh tokens are not securely stored or handled, they could be intercepted, giving attackers access to generate new tokens and hijack user sessions indefinitely.
+
+3. **No Blacklist or Revocation:**  
+
+Without them, compromised tokens cannot be invalidated, allowing attackers to continue using them even after suspicious activity is detected.
+80% of security breaches happen because tokens aren't managed properly. Think about it.
+
