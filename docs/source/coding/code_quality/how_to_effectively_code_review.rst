@@ -33,3 +33,7 @@ Code reviews are a collaborative effort to improve the codebase and achieve the 
 
 A key point here is that there is no such thing as "perfect" code—there is only better code. 
 Remember, effective code review is a skill that improves with practice.
+
+.. image:: ./imgs/how_to_effectively_code_review.jfif
+  :width: 600
+  :alt: How to Effectively Code Review
