@@ -8,5 +8,6 @@ Decision Analysis and Resolution
    ../dar/popular_open_source_databases.rst
    ../dar/netframework_vs_netcore.rst
    ../dar/efcore_vs_dapper.rst
+   ../dar/cloud_provider_comparison.rst
 
    
