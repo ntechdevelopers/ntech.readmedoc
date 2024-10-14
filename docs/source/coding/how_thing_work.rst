@@ -11,6 +11,7 @@ How Thing Work
   ../coding/how_thing_work/how_firewalls_work.rst
   ../coding/how_thing_work/how_osi_works.rst
   ../coding/how_thing_work/how_git_works.rst
+  ../coding/how_thing_work/how_jwt_token_works.rst
   ../coding/how_thing_work/how_sso_saml_works.rst
   ../coding/how_thing_work/how_rabbitmq_message_works.rst
   ../coding/how_thing_work/how_to_kafka_message_works.rst
