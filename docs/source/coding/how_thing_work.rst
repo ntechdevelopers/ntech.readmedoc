@@ -21,7 +21,7 @@ How Thing Work
   ../coding/how_thing_work/how_to_secure_kubernetes_cluster_workload.rst
   ../coding/how_thing_work/how_to_reduce_latency_in_microservices.rst
 
-  ../coding/how_thing_work/order_of_middlewares_dotnet.rst
+  ../coding/how_thing_work/middlewares_dotnet.rst
   ../coding/how_thing_work/syntax_ref_out_in_csharp.rst
 
   ../coding/how_thing_work/how_to_azure_openai_chat_baseline_architecture.rst

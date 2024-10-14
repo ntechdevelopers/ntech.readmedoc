@@ -88,3 +88,19 @@ Streamline your queries, minimize joins, and always, always steer clear of the g
 - Consistency
 - Availability
 - Partition
+
+**Exploring Different Types of Databases**
+
+
+1. SQL Databases: These are relational databases that use Structured Query Language (SQL) for defining and manipulating data. Examples include MySQL, PostgreSQL, and Oracle Database.
+2. Document Databases: These databases store semi-structured data as documents, typically in JSON or BSON format. They are suitable for use cases where flexibility in data schema is required. Examples include MongoDB and Couch base.
+3. Columnar Databases: Also known as column-oriented databases, they store data in columns rather than rows, which can provide better performance for analytics and data warehousing. Examples include Apache Cassandra and Apache HBase.
+4. Key-Value Stores: These databases store data as key-value pairs, making them simple and efficient for certain types of operations such as caching and session management. Examples include Redis and Amazon DynamoDB.
+5. Vector Databases: These databases are optimized for storing and querying vector data, which is common in machine learning and data analytics applications. Examples include Faiss and Milvus.
+6. Object Databases: These databases are designed to store objects rather than rows or documents, making them suitable for object-oriented programming paradigms. Examples include db4o and ObjectDB.
+7. Graph Databases: These databases are optimized for storing and querying graph data structures, making them suitable for applications like social networks, recommendation engines, and fraud detection. Examples include Neo4j and Amazon Neptune.
+8. In-Memory Databases: These databases primarily store data in memory rather than on disk, resulting in very fast read and write operations. Examples include Redis (again) and Memcached.
+9. Time Series Databases: These databases are optimized for storing and querying time-stamped data, making them suitable for IoT, monitoring, and financial applications. Examples include InfluxDB and Prometheus.
+
+Other database like search , new sql , spatial etc are also there 
+Each type of database has its own strengths and weaknesses, and the choice of database depends on the specific requirements of the application and the nature of the data being stored and queried.
