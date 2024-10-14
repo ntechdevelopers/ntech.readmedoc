@@ -45,6 +45,9 @@ Overview
 **References**
 ------------
 
+-  `Microsoft 365 Maps <https://m365maps.com/matrix.htm>`__
+-  `Microsoft 365 Compare <https://m365maps.com/compare.htm>`__
+
 .. toctree::
 
   ../overviews/awesome_dotnet.rst
