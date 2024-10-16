@@ -33,3 +33,7 @@ For example:
 - Requests for `www.ntechdeveloper.com/user` could be routed to a service called `user`.
 
 Ingress is a powerful tool that can help simplify and manage the routing of external traffic to your Kubernetes services. If you are running a Kubernetes cluster, consider using Ingress.
+
+.. image:: ./imgs/how_ingress_works.gif
+  :width: 600
+  :alt: Ntech Developers
