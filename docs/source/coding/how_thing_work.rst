@@ -23,6 +23,7 @@ How Thing Work
   ../coding/how_thing_work/how_cicd_pipeline_works_on_aws.rst
   ../coding/how_thing_work/how_to_secure_kubernetes_cluster_workload.rst
   ../coding/how_thing_work/how_to_reduce_latency_in_microservices.rst
+  ../coding/how_thing_work/how_ingress_works.rst
 
   ../coding/how_thing_work/dotnet_middlewares.rst
   ../coding/how_thing_work/dotnet_collection_type.rst
