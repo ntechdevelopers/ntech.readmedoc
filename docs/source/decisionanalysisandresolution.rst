@@ -10,6 +10,7 @@ Decision Analysis and Resolution
    ../dar/cloud_provider_comparison.rst
    ../dar/choose_load_balancer_reverse_proxy_and_api_gateway.rst
    ../dar/choose_the_right_load_balancer_scale_in_aws_azure_gcp.rst
+   ../dar/choose_the_right_iac_tool_for_managing_cloud_infrastructure.rst
    ../dar/rest_api_vs_graphql.rst
    ../dar/netframework_vs_netcore.rst
    ../dar/efcore_vs_dapper.rst
