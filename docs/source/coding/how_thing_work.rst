@@ -31,6 +31,7 @@ How Thing Work
   ../coding/how_thing_work/dotnet_enable_cors.rst
   ../coding/how_thing_work/dotnet_collection_type.rst
   ../coding/how_thing_work/dotnet_syntax_ref_out_in_csharp.rst
+  ../coding/how_thing_work/dotnet_log_levels.rst
 
   ../coding/how_thing_work/how_to_azure_openai_chat_baseline_architecture.rst
   ../coding/how_thing_work/how_to_build_openai_chat_reference_architecture_on_azure.rst
