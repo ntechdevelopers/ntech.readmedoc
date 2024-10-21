@@ -16,6 +16,7 @@ How Thing Work
   ../coding/how_thing_work/how_rabbitmq_message_works.rst
   ../coding/how_thing_work/how_to_kafka_message_works.rst
   ../coding/how_thing_work/how_grpc_works.rst
+  ../coding/how_thing_work/how_cdn_works.rst
 
   ../coding/how_thing_work/how_ci_cd_pipeline_works_in_multiple_stages.rst
   ../coding/how_thing_work/how_cicd_pipeline_works_on_azure.rst
