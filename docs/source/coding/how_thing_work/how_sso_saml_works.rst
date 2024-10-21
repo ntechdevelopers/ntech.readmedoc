@@ -1,6 +1,24 @@
 How SSO/SAML Works
 ==================
 
+Single Sign-On (SSO) streamlines user authentication across multiple applications. Here's how it works:
+
+1. Central authentication: Users log in once to an SSO server.
+2. Token generation: The server creates an encrypted token upon successful login.
+3. Seamless access: Connected applications use this token to verify user identity.
+
+Key benefits:
+- Reduced password management
+- Enhanced security through centralized control
+- Faster access to new applications
+- Improved user experience
+
+Popular SSO providers include Okta, OneLogin, and PingIdentity.
+Implementing SSO can significantly improve both security and productivity in your organization.
+
+
+**Handle SSO with SAML**
+
 1. AssumeRole
 
 Easily switch roles within your AWS account or between accounts for straightforward permission management.
