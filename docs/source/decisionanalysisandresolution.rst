@@ -3,6 +3,7 @@ Decision Analysis and Resolution
 
 .. toctree::
 
+   ../dar/onion_architecture_vs_clean_architecture.rst
    ../dar/stateful_vs_stateless.rst
    ../dar/choosing_the_right_communication_protocol.rst
    ../dar/choosing_the_right_database_for_your_system_design.rst
