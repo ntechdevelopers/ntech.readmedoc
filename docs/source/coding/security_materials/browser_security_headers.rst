@@ -1,8 +1,7 @@
 Browser Security Headers
 ===================================
 
-Use handcrafted class:
-~~~~~~~~~~~~~~~~~~~~~~
+**Use handcrafted class:**
 
 SecurityHeadersMiddleware.cs
 

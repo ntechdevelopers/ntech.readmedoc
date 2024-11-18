@@ -13,6 +13,7 @@ Decision Analysis and Resolution
    ../dar/choose_the_right_load_balancer_scale_in_aws_azure_gcp.rst
    ../dar/choose_the_right_iac_tool_for_managing_cloud_infrastructure.rst
    ../dar/rest_api_vs_graphql.rst
+   ../dar/rabbitmq_vs_kafka_vs_activemq.rst
    ../dar/encoding_vs_encryption_vs_tokenization.rst
    ../dar/netframework_vs_netcore.rst
    ../dar/efcore_vs_dapper.rst
