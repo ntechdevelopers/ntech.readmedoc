@@ -18,6 +18,7 @@ Decision Analysis and Resolution
    ../dar/cookies_vs_sessions.rst
    ../dar/encoding_vs_encryption_vs_tokenization.rst
    ../dar/netframework_vs_netcore.rst
+   ../dar/abstract_vs_sealed.rst
    ../dar/efcore_vs_dapper.rst
    
 
