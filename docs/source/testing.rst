@@ -5,6 +5,7 @@ Testing
 
    ../testing/testing_in_production_approach.rst
    ../testing/test_driven_development.rst
+   ../testing/how_to_write_effective_test_cases.rst
    ../testing/test_scenarios_for_website_testing.rst
 
    ../testing/comprehensive_guide_to_api_testing_techniques.rst
