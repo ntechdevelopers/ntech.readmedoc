@@ -10,6 +10,7 @@ Testing
 
    ../testing/comprehensive_guide_to_api_testing_techniques.rst
    ../testing/type_of_api_testing.rst
+   ../testing/tools_for_cloud_testing.rst
    ../testing/api_test_with_postman.rst
 
    ../testing/unit_testing_concepts_and_principles.rst
