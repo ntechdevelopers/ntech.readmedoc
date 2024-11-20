@@ -18,6 +18,7 @@ How Thing Work
   ../coding/how_thing_work/how_grpc_works.rst
   ../coding/how_thing_work/how_cdn_works.rst
   ../coding/how_thing_work/how_redis_works.rst
+  ../coding/how_thing_work/how_cors_works.rst
 
   ../coding/how_thing_work/how_cicd_pipeline_works_in_multiple_stages.rst
   ../coding/how_thing_work/how_cicd_pipeline_works_on_azure.rst
