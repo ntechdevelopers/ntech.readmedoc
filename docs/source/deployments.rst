@@ -4,6 +4,7 @@ Developments
 .. toctree::
 
    ../deployments/it_infrastructure_components.rst
+   ../deployments/deployment_strategies.rst
    ../deployments/branching_strategies_in_git.rst
 
    ../deployments/ci_cd_overview.rst
