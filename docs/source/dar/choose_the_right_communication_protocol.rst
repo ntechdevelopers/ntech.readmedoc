@@ -1,4 +1,4 @@
-Choosing the Right Communication Protocol
+Choose the Right Communication Protocol
 ===================================
 
 In the world of software integration, selecting the appropriate protocol can make or break your project. 

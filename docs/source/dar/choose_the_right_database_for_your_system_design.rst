@@ -1,4 +1,4 @@
-Choosing the Right Database for Your System Design
+Choose the Right Database for Your System Design
 ===================================
 
 
