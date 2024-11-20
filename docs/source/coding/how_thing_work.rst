@@ -31,6 +31,7 @@ How Thing Work
   ../coding/how_thing_work/how_to_reduce_latency_in_microservices.rst
 
   ../coding/how_thing_work/dotnet_different_classes.rst
+  ../coding/how_thing_work/dotnet_dependency_injection.rst
   ../coding/how_thing_work/dotnet_middlewares.rst
   ../coding/how_thing_work/dotnet_enable_cors.rst
   ../coding/how_thing_work/dotnet_collection_type.rst
