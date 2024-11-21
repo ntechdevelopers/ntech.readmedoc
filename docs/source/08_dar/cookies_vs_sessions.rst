@@ -36,3 +36,42 @@ Cookies are ideal for persistent user settings and tracking user activity across
 Sessions are suited for managing sensitive data during user sessions, such as authentication or transactions.  
 Secure and effective web development requires a solid grasp of HTTP's statelessness as well as the strategic use of cookies and sessions.  
 Adhering to security best practices helps ensure that our applications meet performance and privacy standards.
+
+**Cookies vs Session Simplified** 
+
+A cookie is basically a key-value pair that’s stored on the browser.  
+
+**How does it work?**
+
+1. The user logs in to your frontend application.  
+2. The frontend sends the request to the backend server.  
+3. The backend server generates a cookie.  
+4. It sets the cookie on the browser via the Set-Cookie response header.  
+5. The user makes a new request to view a different page.  
+6. The frontend sends the request to the backend and includes the Cookie as part of the header.  
+7. The server checks the cookie for the user and responds with the required data.  
+
+**Sounds good, doesn’t it?** 
+
+But there’s a major issue with using cookies.  
+Cookies are accessible via the browser. You can modify the cookie information. That’s why it’s not a good idea to use cookies for storing sensitive data about the users.  
+This is where sessions come into the picture.  
+The session contains a unique set of characters to identify the user. It works as follows:  
+
+1. The user makes a login request.  
+2. The frontend sends the request to the backend server.  
+3. The backend creates a session using a secret key and stores it in some sort of session storage (database or cache).  
+4. Next, the server sends a cookie back to the client.  
+5. However, the cookie contains the unique identifier for the session.  
+6. The user makes a new request to view another page.  
+7. The browser sends the session ID as part of the cookie.  
+
+This time only the server can validate whether the session is valid.  
+
+**A few important points to note over here:**
+
+- Cookies can have a “Secure” flag indicating that it should only be sent over HTTPS. This is good for security reasons.  
+- “HttpOnly” cookies restrict the cookie’s access to JavaScript, reducing the risk of XSS attacks.  
+- Cookies (especially 3rd party cookies) raise a bunch of privacy concerns because they can be used to track user behavior.  
+- While cookies can be made secure, server-side sessions provide additional layers of security against CSRF attacks and handling sensitive information.  
+- Server-side sessions can be centrally managed, meaning you can invalidate, expire, or revoke them if needed.

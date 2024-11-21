@@ -36,3 +36,12 @@ Fully redundant environments in multiple locations for zero downtime and data lo
    - **Use Case**: Perfect for mission-critical applications with no tolerance for downtime or data loss.  
 
 Choosing the right strategy depends on your business needs and budget!
+
+Some additional notes: This description responds to a very general scenario. We must take into account the following.
+
+1. In the B&R strategy, the RPO can vary based on the frequency of backups.
+2. The RTO mainly depends on factors like data size and transfer speed for every strategy.
+3. In Pilot Light Strategy:
+
+- The RPO can vary depending on how frequently data and application updates are replicated from the pilot light environment to the production environment.
+- The RTO can vary depending on the time required to scale up the pilot light environment to handle production workloads.
