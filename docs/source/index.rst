@@ -23,5 +23,6 @@ Contents
    08_decisionanalysisandresolution
    09_chatgptprompt
    10_dotnettips
+   11_generative_ai
    00_aboutme
 

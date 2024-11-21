@@ -33,6 +33,4 @@ How Thing Work
   ../05_coding/how_thing_work/how_to_reduce_latency_in_any_software_system.rst
   ../05_coding/how_thing_work/how_to_reduce_latency_in_microservices.rst
 
-  ../05_coding/how_thing_work/how_to_azure_openai_chat_baseline_architecture.rst
-  ../05_coding/how_thing_work/how_to_build_openai_chat_reference_architecture_on_azure.rst
 
