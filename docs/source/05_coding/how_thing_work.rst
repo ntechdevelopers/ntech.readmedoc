@@ -19,6 +19,7 @@ How Thing Work
   ../05_coding/how_thing_work/how_cdn_works.rst
   ../05_coding/how_thing_work/how_redis_works.rst
   ../05_coding/how_thing_work/how_cors_works.rst
+  ../05_coding/how_thing_work/how_search_engines_works.rst
 
   ../05_coding/how_thing_work/how_cicd_pipeline_works_in_multiple_stages.rst
   ../05_coding/how_thing_work/how_cicd_pipeline_works_on_azure.rst
