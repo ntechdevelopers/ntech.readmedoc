@@ -3,16 +3,16 @@ Developments
 
 .. toctree::
 
-   ../deployments/it_infrastructure_components.rst
-   ../deployments/networking_components.rst
-   ../deployments/deployment_strategies.rst
-   ../deployments/branching_strategies_in_git.rst
+   ../07_deployments/it_infrastructure_components.rst
+   ../07_deployments/networking_components.rst
+   ../07_deployments/deployment_strategies.rst
+   ../07_deployments/branching_strategies_in_git.rst
 
-   ../deployments/ci_cd_overview.rst
+   ../07_deployments/ci_cd_overview.rst
 
-   ../deployments/docker.rst
-   ../deployments/docker_file.rst
-   ../deployments/kubernetes_core_components.rst
+   ../07_deployments/docker.rst
+   ../07_deployments/docker_file.rst
+   ../07_deployments/kubernetes_core_components.rst
 
-   ../deployments/cloud_azure.rst
-   ../deployments/cloud_aws.rst
+   ../07_deployments/cloud_azure.rst
+   ../07_deployments/cloud_aws.rst

@@ -4,7 +4,7 @@ Design Pattern & Design Principle
 
 .. toctree::
 
-   ../design/design_principle.rst
-   ../design/design_pattern.rst
-   ../design/detail_design.rst
+   ../04_design/design_principle.rst
+   ../04_design/design_pattern.rst
+   ../04_design/detail_design.rst
 
