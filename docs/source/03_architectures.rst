@@ -9,6 +9,7 @@ Architectures
    ../03_architectures/monolithic_architecture.rst
    ../03_architectures/modular_architecture.rst
    ../03_architectures/microservice_architecture.rst
+   ../03_architectures/event_driven_architecture.rst
 
 
 
