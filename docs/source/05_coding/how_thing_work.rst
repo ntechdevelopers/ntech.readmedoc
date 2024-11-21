@@ -31,15 +31,6 @@ How Thing Work
   ../05_coding/how_thing_work/how_to_reduce_latency_in_any_software_system.rst
   ../05_coding/how_thing_work/how_to_reduce_latency_in_microservices.rst
 
-  ../05_coding/how_thing_work/dotnet_different_classes.rst
-  ../05_coding/how_thing_work/dotnet_dependency_injection.rst
-  ../05_coding/how_thing_work/dotnet_middlewares.rst
-  ../05_coding/how_thing_work/dotnet_enable_cors.rst
-  ../05_coding/how_thing_work/dotnet_collection_type.rst
-  ../05_coding/how_thing_work/dotnet_syntax_ref_out_in_csharp.rst
-  ../05_coding/how_thing_work/dotnet_log_levels.rst
-  ../05_coding/how_thing_work/dotnet_check_for_nulls.rst
-
   ../05_coding/how_thing_work/how_to_azure_openai_chat_baseline_architecture.rst
   ../05_coding/how_thing_work/how_to_build_openai_chat_reference_architecture_on_azure.rst
 

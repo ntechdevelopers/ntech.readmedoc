@@ -22,5 +22,6 @@ Contents
    07_deployments
    08_decisionanalysisandresolution
    09_chatgptprompt
+   10_dotnettips
    00_aboutme
 
