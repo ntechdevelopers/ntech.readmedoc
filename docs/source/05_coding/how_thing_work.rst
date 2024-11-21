@@ -13,6 +13,7 @@ How Thing Work
   ../05_coding/how_thing_work/how_git_works.rst
   ../05_coding/how_thing_work/how_jwt_token_works.rst
   ../05_coding/how_thing_work/how_sso_saml_works.rst
+  ../05_coding/how_thing_work/how_oauth_2_0_works.rst
   ../05_coding/how_thing_work/how_rabbitmq_message_works.rst
   ../05_coding/how_thing_work/how_to_kafka_message_works.rst
   ../05_coding/how_thing_work/how_grpc_works.rst
