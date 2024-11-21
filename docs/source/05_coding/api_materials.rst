@@ -6,6 +6,7 @@ API Materials
 
 .. toctree::
 
+  ../05_coding/api_materials/api_terminology.rst
   ../05_coding/api_materials/api_protocols.rst
   ../05_coding/api_materials/http_request_methods.rst
   ../05_coding/api_materials/common_http_status_code.rst
