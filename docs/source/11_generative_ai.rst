@@ -1,4 +1,4 @@
-DotNet Tips
+Generative AI
 ===================================
 
 .. toctree::
