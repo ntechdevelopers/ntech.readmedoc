@@ -4,6 +4,7 @@ Decision Analysis and Resolution
 .. toctree::
 
    ../08_dar/choose_software_development_life_cycle_models.rst
+   ../08_dar/choose_the_right_architecture.rst
    ../08_dar/domain_vs_model_based_architectures.rst
    ../08_dar/onion_architecture_vs_clean_architecture.rst
    ../08_dar/stateful_vs_stateless.rst
