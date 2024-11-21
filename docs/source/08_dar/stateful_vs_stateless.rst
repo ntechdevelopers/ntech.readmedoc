@@ -1,4 +1,4 @@
-Stateful vs Stateless Design — What's the Difference?
+Stateful vs Stateless Design
 ===================================
 
 Stateless design is a powerful model that has led to the development of simple yet highly scalable and efficient applications.
