@@ -1,4 +1,4 @@
-AWS Overall Network Architecture
+Azure Overall Network Architecture
 ===================================
 
 Planning a microservices architecture on Microsoft Azure? This post dives into the essential network components that will ensure your application is secure, scalable, and highly available.

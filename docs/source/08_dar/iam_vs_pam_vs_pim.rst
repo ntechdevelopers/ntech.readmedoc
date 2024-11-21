@@ -43,3 +43,7 @@ IAM vs PAM vs PIM
 - **IAM (Identity and Access Management)** is the overarching term encompassing the management of all user identities, authentication, and authorization within an organization.  
 - **PAM (Privileged Access Management)** is a subset of IAM specifically focused on managing and controlling access to privileged accounts and systems.  
 - **PIM (Privileged Identity Management)** is another subset of IAM that concentrates on the lifecycle management of privileged identities, including provisioning, de-provisioning, and access certification.
+
+.. image:: ./imgs/iam_vs_pam_vs_pim.jfif
+  :width: 800
+  :alt: iam_vs_pam_vs_pim.jfif
