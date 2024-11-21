@@ -1,7 +1,6 @@
 AWS Native Service
 ===================================
 
-
 AWS offers an extended collection of services catering to different functionality and use cases. Below is a condensed summary of some of the main AWS services:
 
 **Compute:**

@@ -7,5 +7,6 @@ Cloud AWS
 .. toctree::
 
   ../07_deployments/cloud_aws/aws_native_service.rst
+  ../07_deployments/cloud_aws/aws_database_service.rst
   ../07_deployments/cloud_aws/aws_overall_network_architecture.rst
 
