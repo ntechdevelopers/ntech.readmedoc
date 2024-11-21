@@ -42,3 +42,7 @@ The Software Development Life Cycle (SDLC) is a framework that outlines the proc
 - The product is designed, implemented, and tested incrementally until the product is finished.  
 
 Each of these models has its advantages and disadvantages, and the choice of which to use often depends on the specific requirements and constraints of the project at hand.
+
+.. image:: ./imgs/choose_software_development_life_cycle_models.gif
+  :width: 800
+  :alt: choose_software_development_life_cycle_models.gif
