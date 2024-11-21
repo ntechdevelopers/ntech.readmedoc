@@ -1,4 +1,4 @@
-Mono-repository vs. Micro-repository
+Mono-repository vs Micro-repository
 ===================================
 
 **Monorepo vs. Microrepo.**

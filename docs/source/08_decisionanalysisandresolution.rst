@@ -27,6 +27,7 @@ Decision Analysis and Resolution
    ../08_dar/rest_api_vs_graphql.rst
    ../08_dar/rest_api_vs_grpc.rst
    ../08_dar/rabbitmq_vs_kafka_vs_activemq.rst
+   ../08_dar/mutex_vs_semaphore.rst
    ../08_dar/cookies_vs_sessions.rst
    ../08_dar/encoding_vs_encryption_vs_tokenization.rst
    ../08_dar/netframework_vs_netcore.rst

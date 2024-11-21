@@ -57,3 +57,14 @@ Aligning with object-oriented programming paradigms, these databases store data 
 
 
 Each database type has its own strengths, and choosing the right one depends on your specific use case, scalability needs, and performance requirements. Whether you’re dealing with structured queries, unstructured big data, or real-time analytics, there’s a database designed for the job.
+
+**Database Selection**
+
+- OLTP: For transactional systems requiring strong consistency
+- OLAP: Optimized for complex queries and data analysis
+- Full-Text Search: Fast, flexible text search capabilities
+- Document Stores: JSON-like document storage and querying
+- Key-Value Stores: High-speed, simple data models
+- Graph Databases: Managing highly connected data
+- Embeddings: Efficient storage and retrieval of vector representations
+- Geospatial: Specialized for location-based data and queries
