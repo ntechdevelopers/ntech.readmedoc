@@ -8,6 +8,7 @@ Decision Analysis and Resolution
    ../08_dar/domain_vs_model_based_architectures.rst
    ../08_dar/onion_architecture_vs_clean_architecture.rst
    ../08_dar/stateful_vs_stateless.rst
+   ../08_dar/iam_vs_pam_vs_pim.rst
    ../08_dar/choose_the_right_communication_protocol.rst
    ../08_dar/choose_the_right_database_for_your_system_design.rst
 
