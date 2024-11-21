@@ -17,7 +17,6 @@ Decision Analysis and Resolution
    ../08_dar/choose_gitflow_vs_trunk_based.rst
    ../08_dar/choose_sql_vs_nosql.rst
 
-   ../08_dar/popular_open_source_databases.rst
    ../08_dar/cloud_provider_comparison.rst
    ../08_dar/choose_load_balancer_reverse_proxy_and_api_gateway.rst
    ../08_dar/choose_the_right_load_balancer_scale_in_aws_azure_gcp.rst
@@ -35,5 +34,7 @@ Decision Analysis and Resolution
    ../08_dar/differences_abstract_vs_sealed.rst
    ../08_dar/differences_efcore_vs_dapper.rst
    
+   ../08_dar/popular_open_source_databases.rst
+   ../08_dar/postgresql_databases_ecosystem.rst
 
    
