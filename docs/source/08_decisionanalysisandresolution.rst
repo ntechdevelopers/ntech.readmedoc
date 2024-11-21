@@ -20,6 +20,7 @@ Decision Analysis and Resolution
    ../08_dar/choose_the_right_load_balancer_scale_in_aws_azure_gcp.rst
    ../08_dar/choose_the_right_iac_tool_for_managing_cloud_infrastructure.rst
 
+   ../08_dar/openapi_vs_swagger.rst
    ../08_dar/rest_api_vs_graphql.rst
    ../08_dar/rest_api_vs_grpc.rst
    ../08_dar/rabbitmq_vs_kafka_vs_activemq.rst
