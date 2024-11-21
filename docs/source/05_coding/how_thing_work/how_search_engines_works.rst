@@ -1,39 +1,19 @@
-How Ingress Works
+How Search Engines Works
 ===================================
 
-**How Application Load Balance Ingress Works**
+**Step 1 - Crawling** 
 
-Ingress is a Kubernetes object that allows you to manage external or internal HTTP(S) access to services running in your Kubernetes cluster. It can be used to route requests for different paths to different services.
+Web Crawlers scan the internet for web pages. They follow the URL links from one page to another and store URLs in the URL store. The crawlers discover new content, including web pages, images, videos, and files.  
 
-**AWS ALB Ingress Controller**
+**Step 2 - Indexing**
 
-The AWS ALB Ingress controller is an open-source project that automates the creation and configuration of ALBs for Kubernetes Ingress resources. It can help simplify and automate the management of your Ingress resources.
+Once a web page is crawled, the search engine parses the page and indexes the content found on the page in a database. The content is analyzed and categorized. For example, keywords, site quality, content freshness, and many other factors are assessed to understand what the page is about.  
 
-- Open-source project that automates the creation and configuration of ALBs for Kubernetes Ingress resources.
-- Compatible with any Kubernetes cluster, including EKS.
-- Listens for Ingress resources in your Kubernetes cluster.
-- Creates an ALB and configures it to route traffic to the targets specified in the Ingress resource.
-- Can also automatically distribute traffic across multiple ALBs.
+**Step 3 - Ranking** 
 
-**Key Features of AWS Load Balancer Controller**
+Search engines use complex algorithms to determine the order of search results. These algorithms consider various factors, including keywords, pages' relevance, content quality, user engagement, page load speed, and many others. Some search engines also personalize results based on the user's past search history, location, device, and other personal factors.  
 
-- **Sharing ALBs**: You can use one ALB for multiple Ingress resources.
-- **Support for NLBs**: NLBs are good for high-traffic apps.
-- **Support for TargetGroupBinding**: Bind services to ELB target groups.
-- **Support for fully private clusters**: Keep clusters isolated from the internet.
+**Step 4 - Querying**
 
-**How Ingress Works**
+When a user performs a search, the search engine sifts through its index to provide the most relevant results.
 
-Ingress works by defining a set of rules that map incoming requests to specific services. These rules can be based on the hostname, path, or other criteria.
-When a request arrives at your Kubernetes cluster, the Ingress controller will use these rules to determine which service to route the request to.
-
-For example:
-- Requests for `www.ntechdeveloper.com/app1` could be routed to a service called `app1`.
-- Requests for `www.ntechdeveloper.com/app2` could be routed to a service called `app2`.
-- Requests for `www.ntechdeveloper.com/user` could be routed to a service called `user`.
-
-Ingress is a powerful tool that can help simplify and manage the routing of external traffic to your Kubernetes services. If you are running a Kubernetes cluster, consider using Ingress.
-
-.. image:: ./imgs/how_ingress_works.gif
-  :width: 600
-  :alt: Ntech Developers
