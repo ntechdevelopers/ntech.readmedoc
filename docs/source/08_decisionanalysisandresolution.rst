@@ -12,6 +12,7 @@ Decision Analysis and Resolution
 
    ../08_dar/sql_vs_nosql.rst
    ../08_dar/popular_open_source_databases.rst
+   ../08_dar/gitflow_vs_trunk_based.rst
 
    ../08_dar/cloud_provider_comparison.rst
    ../08_dar/choose_load_balancer_reverse_proxy_and_api_gateway.rst
