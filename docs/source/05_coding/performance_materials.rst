@@ -10,3 +10,4 @@ Performance Materials
   ../05_coding/performance_materials/database_performance.rst
   ../05_coding/performance_materials/sql_optimization.rst
   ../05_coding/performance_materials/api_optimization.rst
+  ../05_coding/performance_materials/caching_strategies.rst
