@@ -12,3 +12,4 @@ DotNet Tips
   ../10_dotnettips/dotnet_log_levels.rst
   ../10_dotnettips/dotnet_check_for_nulls.rst
   ../10_dotnettips/dotnet_generic_delegates.rst
+  ../10_dotnettips/dotnet_linq.rst
