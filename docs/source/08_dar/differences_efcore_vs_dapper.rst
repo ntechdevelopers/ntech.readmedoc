@@ -46,3 +46,17 @@ Entity Framework Core vs Dapper
 
 - Entity Framework Core: Entity Framework has a large and active community, and there are many third-party libraries and tools built around Entity Framework.
 - Dapper: Dapper also has a strong community, but it may have a smaller ecosystem in comparison. However, its simplicity often means that developers can work with it effectively without relying on additional tools. 
+
+============  ============================================================  =====================================================
+Feature        EF Core                                                     Dapper
+============  ============================================================  =====================================================
+Best Use Case Complex object mapping, full ORM, LINQ support               High-performance, lightweight data access
+Change Tracking Yes, supports automatic change tracking                    No, requires manual tracking
+LINQ Support   Fully supports LINQ                                         Limited, relies on raw SQL
+Migrations     Supports database migrations                                No migration support
+Performance    Moderate - full ORM adds overhead                           High - lightweight and fast
+Control Over   Limited, mostly managed by ORM                              Full control with raw SQL
+SQL Queries
+Ideal For      Applications with complex relationships and data management Microservices, high-speed applications, simple data access
+Learning Curve Moderate - more features to learn                           Low - straightforward with fewer features
+============  ============================================================  =====================================================
