@@ -2,7 +2,6 @@ Unit vs Integration vs E2E
 ===================================
 
 Unit vs Integration vs E2E testing — How do you build the perfect testing strategy?
-===================================================================================
 
 Unit, integration, and E2E testing all have their time and place within a team’s testing strategy.
 
