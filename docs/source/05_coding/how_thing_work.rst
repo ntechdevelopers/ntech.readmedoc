@@ -9,19 +9,22 @@ How Thing Work
   ../05_coding/how_thing_work/how_operating_systems_work.rst
   ../05_coding/how_thing_work/how_firewalls_work.rst
   ../05_coding/how_thing_work/how_internet_cookies_work.rst
-
+  ../05_coding/how_thing_work/how_cdn_works.rst
+  ../05_coding/how_thing_work/how_https_works.rst
   ../05_coding/how_thing_work/how_api_works.rst
   ../05_coding/how_thing_work/how_osi_works.rst
   ../05_coding/how_thing_work/how_git_works.rst
+
   ../05_coding/how_thing_work/how_jwt_token_works.rst
   ../05_coding/how_thing_work/how_sso_saml_works.rst
   ../05_coding/how_thing_work/how_oauth_2_0_works.rst
+  ../05_coding/how_thing_work/how_cors_works.rst
+
   ../05_coding/how_thing_work/how_rabbitmq_message_works.rst
   ../05_coding/how_thing_work/how_to_kafka_message_works.rst
   ../05_coding/how_thing_work/how_grpc_works.rst
-  ../05_coding/how_thing_work/how_cdn_works.rst
+  ../05_coding/how_thing_work/how_mqtt_works.rst
   ../05_coding/how_thing_work/how_redis_works.rst
-  ../05_coding/how_thing_work/how_cors_works.rst
   ../05_coding/how_thing_work/how_search_engines_works.rst
 
   ../05_coding/how_thing_work/how_cicd_pipeline_works_in_multiple_stages.rst
