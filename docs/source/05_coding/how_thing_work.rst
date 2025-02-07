@@ -7,8 +7,10 @@ How Thing Work
 .. toctree::
 
   ../05_coding/how_thing_work/how_operating_systems_work.rst
-  ../05_coding/how_thing_work/how_internet_cookies_work.rst
   ../05_coding/how_thing_work/how_firewalls_work.rst
+  ../05_coding/how_thing_work/how_internet_cookies_work.rst
+
+  ../05_coding/how_thing_work/how_api_works.rst
   ../05_coding/how_thing_work/how_osi_works.rst
   ../05_coding/how_thing_work/how_git_works.rst
   ../05_coding/how_thing_work/how_jwt_token_works.rst
